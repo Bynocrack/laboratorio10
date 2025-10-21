@@ -55,9 +55,33 @@ main .flex * {
   background-color: #aaa;
   border-radius: 15px;
   padding: 1vh;
+  text-align: center;
 }
 
-.principal {
+.principal,
+.servicios {
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.principal,
+.servicios * {
+  flex: 1;
+}
+
+.portafolio {
+  align-items: center;
+}
+
+.nosotros {
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.portafolio,
+.nosotros * {
+  min-width: 25%;
 }
