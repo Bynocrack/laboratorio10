@@ -66,7 +66,7 @@ main .flex * {
   padding: 1rem;
 }
 
-.principal,
+.principal *,
 .servicios * {
   flex: 1;
 }
@@ -81,7 +81,7 @@ main .flex * {
   justify-content: center;
 }
 
-.portafolio,
+.portafolio *,
 .nosotros * {
   min-width: 25%;
 }
