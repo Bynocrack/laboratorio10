@@ -85,3 +85,21 @@ main .flex * {
 .nosotros * {
   min-width: 25%;
 }
+
+#form-contacto {
+  border: 0px;
+  align-items: center;
+}
+
+#form-contacto * {
+  background-color: white;
+  border-radius: 0px;
+  margin: 1rem;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+#form-contacto button:active {
+  background-color: #111;
+  color: #eee;
+}
